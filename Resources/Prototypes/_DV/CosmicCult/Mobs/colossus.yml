@@ -261,7 +261,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      450: Dead
+      550: Dead #Was 450, buffed due to laser spam.
   - type: CosmicCorrupting
     mobile: true
     autoDisable: false
@@ -270,11 +270,11 @@
     allowedStates:
     - Alive
     damage:
-      types:
+      types: #heat was -0.5, buffed due to laser spam
         Blunt: -1
         Piercing: -1
         Slash: -1
-        Heat: -0.5
+        Heat: -1
         Cold: -0.5
   - type: MultiplyAttackRateOnSupercritical
   - type: MultiplyCorruptingSpeedOnSupercritical
