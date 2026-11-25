@@ -627,3 +627,6 @@
     OverrideLaws: 0.25
     StreamerLaws: 1
     #Delta-V : lawsets end
+    #Quantum Blue: Lawsets Begin
+    Mosquito: 1
+    #Quantum Blue: Lawsets End
